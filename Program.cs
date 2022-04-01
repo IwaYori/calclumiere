@@ -1,4 +1,9 @@
-﻿using System;
+﻿// Fait par Loris FILLIGER 2nd1
+// Lien du GitHub : https://github.com/IwaYori/calclumiere
+// Aucune extensions n'est nécessaire.
+// Dans le cadre ou le .exe ne fonctionne pas, lancer "dotnet run" dans le terminal
+
+using System;
 
 namespace Calculatrice_descartes
 {
@@ -9,14 +14,14 @@ namespace Calculatrice_descartes
             Console.Title = "Calculatrice | Loi de Snell-Descartes";
             Console.WindowHeight =  40;
             
-            int rec = 1;
-
-            do
+            int rec = 1; // Permet de revenir au début
+                        
+            do // Permet de revenir au début (do, while)
             {
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("\nChoisissez la valeur cherchée :\n- n1 [Indice milieu 1]\n- n2 [Indice milieu 2]\n- i [Angle d'incidence]\n- r [Angle de réfraction]\n");
 
-            string valCh = Convert.ToString(Console.ReadLine());
+            string valCh = Convert.ToString(Console.ReadLine()); // Récuperation de la valeur
             
             if (valCh == "n1")
             {
@@ -32,8 +37,8 @@ namespace Calculatrice_descartes
                 Console.WriteLine("\nVeuillez entrer la valeur i [Angle d'incidence]");
                 double inci = Convert.ToDouble(Console.ReadLine());
 
-                double dRefr = refr*((Math.PI) / 180);
-                double dInci = inci*((Math.PI) / 180);
+                double dRefr = refr*((Math.PI) / 180); // Passage du radiant au degrès
+                double dInci = inci*((Math.PI) / 180); // Idem
                 double result = (n2 * Math.Sin(dRefr)) / Math.Sin(dInci);
 
                 Console.ForegroundColor = ConsoleColor.White;
@@ -99,7 +104,7 @@ namespace Calculatrice_descartes
                 double refr = Convert.ToDouble(Console.ReadLine());
 
                 double dRefr = refr*((Math.PI) / 180);
-                double result = (Math.Asin((n1/n2)*Math.Sin(dRefr)));
+                double result = (Math.Asin((n2/n1)*Math.Sin(dRefr)));
                 double dResult = (result*180)/Math.PI;
 
                 Console.ForegroundColor = ConsoleColor.White;
@@ -112,10 +117,14 @@ namespace Calculatrice_descartes
             {
                 rec = 1;
             }
+            else
+            {
+                rec = 0;
+            }
 
-            }while(rec == 1);
-            Console.ReadKey();
+            }while(rec == 1); // fin de la boucle do while
 
+            Console.ReadKey(); // ferme la fenêtre à l'appui d'une touche
         }
     }
 }
