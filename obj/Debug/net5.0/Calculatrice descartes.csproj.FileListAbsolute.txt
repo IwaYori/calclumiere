@@ -1,0 +1,16 @@
+D:\Code\Calculatrice descartes\bin\Debug\net5.0\Calculatrice descartes.exe
+D:\Code\Calculatrice descartes\bin\Debug\net5.0\Calculatrice descartes.deps.json
+D:\Code\Calculatrice descartes\bin\Debug\net5.0\Calculatrice descartes.runtimeconfig.json
+D:\Code\Calculatrice descartes\bin\Debug\net5.0\Calculatrice descartes.runtimeconfig.dev.json
+D:\Code\Calculatrice descartes\bin\Debug\net5.0\Calculatrice descartes.dll
+D:\Code\Calculatrice descartes\bin\Debug\net5.0\ref\Calculatrice descartes.dll
+D:\Code\Calculatrice descartes\bin\Debug\net5.0\Calculatrice descartes.pdb
+D:\Code\Calculatrice descartes\obj\Debug\net5.0\Calculatrice descartes.csproj.AssemblyReference.cache
+D:\Code\Calculatrice descartes\obj\Debug\net5.0\Calculatrice descartes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Calculatrice descartes\obj\Debug\net5.0\Calculatrice descartes.AssemblyInfoInputs.cache
+D:\Code\Calculatrice descartes\obj\Debug\net5.0\Calculatrice descartes.AssemblyInfo.cs
+D:\Code\Calculatrice descartes\obj\Debug\net5.0\Calculatrice descartes.csproj.CoreCompileInputs.cache
+D:\Code\Calculatrice descartes\obj\Debug\net5.0\Calculatrice descartes.dll
+D:\Code\Calculatrice descartes\obj\Debug\net5.0\ref\Calculatrice descartes.dll
+D:\Code\Calculatrice descartes\obj\Debug\net5.0\Calculatrice descartes.pdb
+D:\Code\Calculatrice descartes\obj\Debug\net5.0\Calculatrice descartes.genruntimeconfig.cache
